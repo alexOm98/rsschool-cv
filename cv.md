@@ -18,3 +18,27 @@
 * CSS
 * JavaScript 
 * Git/GitHub
+
+****
+
+## Education
+### Belarusian State University, Law faculty
+
+****
+
+## Work experience
+### Generely none but i'm currently working on my [CV](https://github.com/alexOm98/rsschool-cv)
+
+***
+
+## Code example
+```
+function multiply($a, $b) {
+return $a * $b;
+}
+```
+## Languages
+* English - Intermediate/Advanced (according to the online test at [EFset.org](https://ibb.co/6FKvp2X))
+* Russian - Native
+* Belarussian - Native
+* Ukrainian - Intermediate
