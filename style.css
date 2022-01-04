@@ -57,3 +57,95 @@
     background-color: rgb(109, 148, 207);
   }
   
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section-name {
+    flex: 1 1 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: gray 2px solid;
+    padding: 20px 10px 45px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .user-exp {
+    font-weight: 800;
+  }
+  
+  .section-divider {
+    background-color: gray;
+    width: 100%;
+    height: 2px;
+  }
+  
+  .section-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(180, 180, 180)
+  }
+  .section-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .contacts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact {
+    margin: 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .contact img {
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .section-item a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  
+  .section-item {
+    width: 45%;
+    margin: 20px 0px;
+    font-weight: 100;
+    border-bottom: gray 2px solid;
+  }
+  
+  .section-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .section-item ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .section-item p {
+    margin: 0 0 3px;
+  }
+  
+  pre, code {
+    white-space: pre-line;
+  }
+  
+  .bottom-sections {
+    border-bottom: 0;
+  }  
