@@ -148,4 +148,33 @@
   
   .bottom-sections {
     border-bottom: 0;
+  }
+  
+  .footer {
+    background-color: #0081f1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .link-github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+  
+  .footer-logo {
+    height: 45px;
+    width: 121px;
+    background-image: url("./assets/icons/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
   }  
