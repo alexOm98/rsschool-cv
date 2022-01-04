@@ -1,1 +1,180 @@
-
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  
+  .header {
+    background-color: #0081f1;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0081f1;
+    display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(109, 148, 207);
+  }
+  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .section-name {
+    flex: 1 1 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: gray 2px solid;
+    padding: 20px 10px 45px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .user-exp {
+    font-weight: 800;
+  }
+  
+  .section-divider {
+    background-color: gray;
+    width: 100%;
+    height: 2px;
+  }
+  
+  .section-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgb(180, 180, 180)
+  }
+  .section-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .contacts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact {
+    margin: 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .contact img {
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .section-item a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  
+  .section-item {
+    width: 45%;
+    margin: 20px 0px;
+    font-weight: 100;
+    border-bottom: gray 2px solid;
+  }
+  
+  .section-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .section-item ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .section-item p {
+    margin: 0 0 3px;
+  }
+  
+  pre, code {
+    white-space: pre-line;
+  }
+  
+  .bottom-sections {
+    border-bottom: 0;
+  }
+  
+  .footer {
+    background-color: #0081f1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .link-github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+  }
+  
+  .footer-logo {
+    height: 45px;
+    width: 121px;
+    background-image: url("./assets/icons/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }  
